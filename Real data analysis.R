@@ -5,8 +5,8 @@
 # -------- Remove all variables ---------
 if(sys.nframe() == 0L){rm(list=ls()); gc()}
 
-address = 'D:/cuiguangyuan/EMA/Real data/'
-setwd('D:/cuiguangyuan/EMA/Real data')
+# address = ''
+# setwd('')
 
 # ---- Necessary packages ----
 pacman::p_load(expm,mvtnorm,MASS,quadprog,mice,snowfall,parallel,ggplot2)
